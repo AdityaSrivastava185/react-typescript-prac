@@ -12,6 +12,12 @@ function identity<T>(val:T):T{
     return val;
 }
 
+
+// Arrow func
+const identityFunc = <T,>(val:T):T => {
+    return val;
+}
+
 const greeting = identity("Hello");
 const num = identity(42);
 const obj = identity({ name: "Alice" });
